@@ -1,0 +1,336 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.border-line{
+    width: 100%;
+    margin-top: 625px;
+    border: 2px solid red;
+    left: -25%;
+    margin-left: -1px;
+    border-top-left-radius: 50% 100% ;
+    border-top-right-radius: 50% 100%;
+    background: radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+    ),black;
+}
+.line{
+    height: 140px;
+    width: 80%;
+    background:linear-gradient(93deg,  #43172b, #230a25);
+    text-align: start;
+    border-radius: 15px;
+    margin : auto;
+    margin-top: 35px;
+}
+.line h1{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.line p{
+    padding-left: 50px;
+    padding-top: 0.5rem;
+    color: rgba(255,255,255,0.7);
+    font-size: 19.8px;
+}
+.trend{
+    margin-left: 170px;
+    
+}
+.trend h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.trend button{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 13px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    line-height: 2;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.trend img{
+    width: 10px;
+    margin-left: 20px; 
+
+}
+#button{
+    margin-left: 20px;
+}
+.playlist{
+    width: 77rem;
+    margin-top: 30px;
+    margin-left: 153px;
+    display: flex;
+    overflow-x: scroll;
+    grid-auto-columns: 100%;
+    scroll-behavior: smooth;
+}
+.playlist img{
+    border-radius: 15px;
+    margin-left: 35px;
+}
+.main-content{
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.content{
+    height: 350px;
+    width: 80%;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: linear-gradient(97deg, #5c1d38 1.27%, #120C1F 75.23%);
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    overflow: hidden;
+}
+.content1 h3{
+    font-size: 2rem;
+    font-size: 500;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.content1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 10px;
+    opacity: 0.6;
+    padding-left: 50px;
+}
+.content2 img{
+    position: relative;
+    width: 150%;
+    height: 140%;
+    margin-top: -70px;
+    background: radial-gradient(94.35% 90.74% at 100% 100%, rgba(229, 9, 20, 0.50) 0%, rgba(23, 43, 71, 0.00) 100%);
+}
+.reasons{
+    margin-top: 60px;
+    margin-left: 170px;
+    margin-bottom: -5px;
+    font-size: 1.2rem;
+}
+.card{
+    display: flex;
+    width: 82.5%;
+    margin-left: 150px;
+}
+.card-body{
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+    background:  ;
+    margin: 1.2rem;
+    padding : 1.5rem 1rem 7rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86% );
+}
+.card-body img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    justify-content: end;
+
+}
+#same {
+    margin-left: 170px;
+    margin-top: 70px;
+}
+#different{
+    margin-left: 160px;
+    margin-top: 40px;
+}
+.question{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.question-content{
+    margin-top: 15px;
+    margin-left: 170px;
+}
+.box{
+    height: 85px;
+    width:72%;
+    background-color: rgba(45,45,45);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding-top: 28px;
+    padding-left: 20px ;
+    font-size: 1.5rem;
+    border: 0;
+    color: #fff;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.box img {
+    height: 40px;
+    width: 50px;
+    padding-right: 15px;
+}
+.last-content{
+    margin-left: 170px;
+    margin-top: 80px;
+}
+.last-content input{
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 800px;
+    line-height: 3.5rem;
+    border-radius: 5px;
+    background: rgba(22, 22, 22, 0.7);
+    padding-left: 10px;
+}
+.last-content button{
+    background-color: #db0001;
+    width: 170px;
+    line-height: 3rem;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    margin-left: 5px;
+}
+.last-content img{
+    height: 30px;
+    width: 25px;
+    padding-top: 14px;
+}
+.end{
+    margin-left: 195px;
+    margin-top: 30px;
+    color: rgba(255,255,255,0.7);
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.2rem;
+    width: 960px;
+}
+.end-button{
+    margin-left: 195px;
+    margin-top: 50px;
+    color: #fff;
+    
+}
+.end-button button{
+    color: #fff;
+    font-size: 1rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-radius: 5px;
+}
+#logo2{
+    font-size: 5px;
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+    margin-left: -2px;
+}
+.end-content{
+    margin-left: 195px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgba(255,255,255,0.7);
+}
